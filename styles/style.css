@@ -353,6 +353,11 @@ footer .footer-bottom .copyright{
         margin-bottom: 30px;
     }
     /* blog ends */
+    /* client starts */
+    #team .client-grid{
+        grid-template-columns: repeat(3 , 1fr);
+    }
+    /* client ends */
     /* footer starts */
     footer .footer-top img{
         max-width: 70%;
@@ -458,4 +463,20 @@ footer .footer-bottom .copyright{
     }
     /* footer css ends */
     /* site css ends */
+}
+
+/* tablet ends */
+
+/* notebook */
+@media only screen and (min-width: 1024px) and (max-width: 1139px){
+    /* common css */
+    .container{
+        width: 980px;
+    }
+
+    /* blog starts */
+    #blog .blog-heading form input {
+        width: 220px;
+    }
+    /* blog ends */
 }
